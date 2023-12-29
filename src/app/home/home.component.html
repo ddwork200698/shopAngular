@@ -1,10 +1,36 @@
 <style>
+    
     .container{
-        background-color:bisque !important;
+        /* background-color:bisque !important; */
     }
     .intro-section{
         text-align: center;
-        padding: 10px;
+        background-color:blanchedalmond;
+    }
+    .search-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-control{
+        margin-top: 5px;
+       
+    }
+    .product-category{
+        width: 200px;
+        margin-left: 5px;
+    }
+    .product-item{
+        background-color: rgb(219, 223, 243);
+        border: 1px solid rgb(35,39,61);
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .product-image{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
     }
 </style>
 <div class="container">
@@ -12,6 +38,29 @@
         <h1>This is Home</h1>
         <p>Trang này hiển thị thông tin sản phẩm</p>
         <p>Người dùng có thể lựa chọn sản phẩm tại đây</p>
+    </div>
+    <!-- Đoạn này là viết code tìm kiếm và lựa chọn loại sản phẩm -->
+    <div class="search-box">
+        <input type="text" class="form-control search-input" placeholder="Tìm sản phẩm">
+        <select class="form-control product-category">
+            <option selected disabled>Danh mục sản phẩm</option>
+            <option>Đồ điện tử</option>
+            <option>Đồ nhà bếp</option>
+            <option>Đồ phòng ngủ</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class="product-item">
+                <img src="https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg" alt="Product-Image" class="product-image">
+                <h3 class="product-name">Macbook Pro</h3>
+                <p class="product-description">16.2 inch, 3456 x 2234 Pixels, OLED, 120, 1000 nits, Retina                   Apple, M2 Pro, 12-Core                 
+                16 GB (1 thanh 16 GB), Hãng không công bố, Hãng không công bố MHz                   
+                SSD 1 TB Apple M2 Pro 19-core GPU</p>
+                <p class="product-warranty">Bảo hành: 12 tháng</p>
+                <p class="product-price">Giá: $1000</p>
+            </div>
+        </div>
     </div>
 </div>
 
