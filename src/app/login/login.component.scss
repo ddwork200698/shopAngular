@@ -1,0 +1,26 @@
+$tea-green: #ccd5aeff;
+$beige: #e9edc9ff;
+$cornsilk: #fefae0ff;
+$papaya-whip: #faedcdff;
+$buff: #d4a373ff;
+
+.login-header{
+    background-color: $buff;
+}
+.form-group{
+    background-color: $tea-green;
+}
+.password-field{
+    position: relative;
+}
+.password-toggle{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    cursor: pointer;
+}
+.checkbox-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
