@@ -8,9 +8,10 @@ import { OrderComponent } from './order/order.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
-  declarations: [HomeComponent, HeaderComponent, FooterComponent, OrderComponent, ProductDetailComponent, OrderConfirmComponent, LoginComponent],
+  declarations: [HomeComponent, HeaderComponent, FooterComponent, OrderComponent, ProductDetailComponent, OrderConfirmComponent, LoginComponent, RegisterComponent],
   imports: [
     BrowserModule
   ],
