@@ -1,0 +1,70 @@
+$tea-green: #ccd5aeff;
+$beige: #e9edc9ff;
+$cornsilk: #fefae0ff;
+$papaya-whip: #faedcdff;
+$buff: #d4a373ff;
+
+.intro-section{
+    text-align: center;
+    background-color:$buff;
+}
+.product-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.thumbnail-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.thumbnail-item{
+    width: 120px;
+    height: 120px;
+    margin-right: 5px;
+}
+.thumbnail-item:last-child{
+    margin-right: 0;
+}
+.thumbnail-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.thumbnail-item:active{
+    border: 2px solid white;
+}
+.product-details{
+    background-color: $papaya-whip;
+}
+.product-actions button{
+    margin-right: 10px;
+}
+.border-wrapper{
+    border: 1px solid white;
+}
+.product-actions{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    align-items: center;
+}
+.product-quantity{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.product-quantity button{
+    // background-color: transparent;
+    // border: none;
+    // color: white;
+}
+.product-quantity input{
+    // background-color: transparent;
+    font-size: 16px;
+    text-align: center;
+    width: 40px;
+    margin: 0 10px;
+}
